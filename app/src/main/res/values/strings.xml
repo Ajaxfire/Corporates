@@ -4,7 +4,13 @@
     <string name="rules">How to Play</string>
     <string name="intro">Welcome to Corporates</string>
     <string name="title_activity_rules">Rules</string>
-    <string name="ruleDetails">Corporates can be played by 5-10 players at a time. The game starts at the Boardroom where the Leaders are deciding the next 5 Products. Together, the leaders decide on a Product Leadership team. Unknown to them, some of the Leaders intend to fail the company and join a competitor. These traitors may fail a Product if they are made a part of the Product Team. To thwart the traitors, the Leaders must successfully launch 3 Products. If the Traitors manage to fail 3 products, the company goes bankrupt and the Leaders lose. The Leaders are not told the identity of the traitors. However, all traitors know each other\'s role.</string>
+    <string name="ruleDetails"><h1>The Story</h1><div>In the Boardroom, the Leaders of the company are deciding the Product Managers of the next 5 Products from amongst themselves. Unknown to them, some of them have made deals with a competitor to fail the company. If the Traitors manage to fail 3 products, the company goes bankrupt and the Leaders lose. The Leaders have to identify the Traitors in time to successfully launch new products and save their company.</div>
+        <h1>The Trick</h1><div>The Leaders do not know the identity of the traitors. However, all traitors know each other\'s role.</div>
+        <h1>The Play</h1><div>Once a Product Management Team is decided by the Leaders, the selected Leaders vote for the Success or Failure of the Product. In groups less than 7, only 1 Traitor's vote in the Product Team is enough to Fail the Product.</div>
+        <h1>The Condition</h1><div>The Leaders/Traitors who reach 3 victories win the Game.</div>
+        <h1>The Twist</h1><div>All voting is done through Secret Ballot. Nobody can divulge their votes or show their roles to others</div>
+        <h1>The Frenzy</h1><div>The voting is timed. Each Leader/Traitor needs to make a vote within 5 seconds.</div>
+    </string>
     <string name="leaders">Leaders</string>
     <string name="traitors">Traitors</string>
     <string name="ok">Add</string>
