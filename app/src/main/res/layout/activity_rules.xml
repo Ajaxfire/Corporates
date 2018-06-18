@@ -8,9 +8,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="384dp"
-        android:layout_height="505dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-1dp" />
+        android:layout_width="380dp"
+        android:layout_height="500dp"
+        android:layout_margin="5dp"
+        android:width="380dp"
+        android:height="500dp"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 </android.support.constraint.ConstraintLayout>

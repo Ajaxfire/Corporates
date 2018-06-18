@@ -13,6 +13,9 @@
     </string>
     <string name="leaders">Leaders</string>
     <string name="traitors">Traitors</string>
+    <string name="zero">0</string>
     <string name="ok">Add</string>
     <string name="cancel">Cancel</string>
+    <string name="player1">Ajax</string>
+    <string name="player2">Deep</string>
 </resources>

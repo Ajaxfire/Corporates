@@ -11,21 +11,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/txtTraitors"
+        android:layout_alignRight="@+id/txtTraitors"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="13dp"
         android:clickable="true"
         app:backgroundTint="?attr/colorPrimaryDark"
         app:srcCompat="@android:drawable/ic_input_add"
         tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="573dp" />
+        tools:layout_editor_absoluteY="573dp"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/txtLeaders"
         android:layout_width="83dp"
         android:layout_height="35dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignTop="@+id/txtTraitors"
-        android:layout_marginStart="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
         android:text="@string/leaders"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         tools:layout_editor_absoluteX="28dp"
@@ -36,9 +40,11 @@
         android:layout_width="50dp"
         android:layout_height="35dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignTop="@+id/txtLeaders"
         android:layout_marginStart="130dp"
-        android:text="0"
+        android:layout_marginLeft="130dp"
+        android:text="@string/zero"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         tools:layout_editor_absoluteX="128dp"
         tools:layout_editor_absoluteY="57dp" />
@@ -48,9 +54,11 @@
         android:layout_width="50dp"
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/txtLeaders"
-        android:layout_marginEnd="144dp"
-        android:text="0"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:text="@string/zero"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         tools:layout_editor_absoluteX="210dp"
         tools:layout_editor_absoluteY="57dp" />
@@ -60,8 +68,10 @@
         android:layout_width="83dp"
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
         android:layout_marginTop="61dp"
         android:text="@string/traitors"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -69,6 +79,7 @@
         tools:layout_editor_absoluteY="57dp" />
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSetupPlayers"
         android:layout_width="334dp"
         android:layout_height="465dp"
         android:layout_alignParentBottom="true"
